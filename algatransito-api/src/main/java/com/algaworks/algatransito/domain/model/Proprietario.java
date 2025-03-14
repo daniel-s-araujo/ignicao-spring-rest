@@ -9,7 +9,6 @@ import lombok.Setter;
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-//@Table(name = "tb_proprietario")
 public class Proprietario {
 
     @EqualsAndHashCode.Include
